@@ -1,0 +1,32 @@
+﻿{
+  "name": "随便",
+  "description": "随便",
+  "keywords": [
+    "随便"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/ MaShangJiuH /
+jcddjssl ",
+  "repository": "https://github.com/MaShangJiuH/
+jcddjssl ",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
